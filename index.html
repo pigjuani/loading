@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+
+        body {
+            background: #c72c2c;
+            background: -moz-linear-gradient(left, #630f0f 0%, #c72c2c 100%);
+            background: -webkit-linear-gradient(left, #630f0f 0%,#c72c2c 100%);
+            background: linear-gradient(to right, #630f0f 0%,#c72c2c 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#630f0f', endColorstr='#c72c2c',GradientType=1 );
+            margin: 0;
+            background-attachment: fixed;
+            background-image: url('paradise-loadingscreen-bg.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .custom-align {
+            left: 0;
+            margin: auto;
+            margin-top: -100px;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .custom-spacer-branding {
+            margin-top: 160px;
+        }
+        .custom-title {
+            font-family: 'Roboto', cursive;
+            color: #fff;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: -20px;
+            font-weight: 500;
+        }
+
+        .custom-hostname-hostname {
+            font-family: 'kanit', cursive;
+            color: #fff;
+            font-size: 29px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+
+
+    </style>
+
+    <script type="text/javascript">
+        function GameDetails(servername){
+            document.getElementById("custom-servername").innerHTML = servername;
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="custom-align">
+    <p class="custom-title">Bienvenido a</p>
+    <p class="custom-hostname-hostname" id="custom-servername">ParadiseGaming TTT</p>
+    <div class="custom-spacer-branding">
+        <img src="hosted-by-paradisehost.png">
+    </div>
+</div>
+
+</body>
+</html>
