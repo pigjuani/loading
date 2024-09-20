@@ -1,0 +1,248 @@
+
+
+body {
+    font-family:"Microsoft Sans Serif";
+    padding:0;
+    margin:0;
+	height:100%;
+	width:100%;
+	}
+
+html {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color:#333;
+	background-image:url(../images/seamless-stripe_1.png);
+    background-repeat:repeat;
+}
+
+hr { 
+	border: 0; 
+	height: 1px;
+	background: #333; 
+	background-image: linear-gradient(to right, #ccc, #333, #ccc); 
+}
+
+.background {
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.container {
+	position: relative;
+    left: 12%;
+    top: 2%; 
+    width:75%;
+    height:10%;
+    border-radius:10px;
+    background:rgb(21,21,21);
+}
+
+.servername {
+	text-align:center;
+	margin-top:10;
+	color:white;
+	padding:10px;
+	font-size:250%;
+	font-family: 'Arvo', serif;
+}
+
+.description {
+	text-align:left;
+	margin-left:10;
+	color:white;
+	font-size:150%;
+	font-family: 'Arvo', serif;
+}
+
+.avatar {
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.avatarbox {
+    border-radius: 10px;
+	border-style:solid;
+    width:120px;
+    height:120px;
+    position:absolute;
+    bottom:10px;
+    margin-top:10px;
+    margin-left:20px;
+    background-color:rgb(21,21,21);
+	-webkit-box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 1);
+    box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 1);
+}
+
+.box {
+    border-radius: 0px;
+	border-style:absolute;
+	border-color:rgb(21,21,21);
+    width:100%;
+    height:100px;
+    bottom:0px;
+    position:absolute;
+    background-color:rgb(21,21,21);
+	-webkit-box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 1);
+    box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 1);
+}
+
+.name {
+	color:white;
+	font-size:150%;
+	font-family: 'Arvo', serif;
+	left:2%
+	bottom:10%;
+}
+
+.namebox {
+    width:50%;
+    height:0%;
+    bottom:68%;
+    left:12%;
+    position:absolute;
+    background-color:rgb(0,0,255);
+}
+
+
+
+.slot_1-box {
+	position: absolute;
+    left: 15%;
+    top: 20%; 
+    width:16%;
+    height:50%;
+    border-radius:10px;
+    background:rgb(21,21,21);
+}
+.slot_1-box div{
+	text-align:center;
+	margin-left:10;
+	color:white;
+	font-size:150%;
+	font-family: 'Arvo', serif;
+}
+.slot_1-box p{
+	text-align:center;
+	margin-left:10;
+	color:white;
+	font-size:100%;
+	font-family: 'Arvo', serif;
+}
+
+.slot_2-box{
+	position: absolute;
+    left: 32%;
+    top: 20%; 
+    width:16%;
+    height:50%;
+    border-radius:10px;
+    background:rgb(21,21,21);
+}
+.slot_2-box div{
+	text-align:center;
+	margin-left:10;
+	color:white;
+	font-size:150%;
+	font-family: 'Arvo', serif;
+}
+.slot_2-box p{
+	text-align:center;
+	margin-left:10;
+	color:white;
+	font-size:100%;
+	font-family: 'Arvo', serif;
+}
+
+#slot_3-box {
+	position: absolute;
+    left: 49%;
+    top: 20%; 
+    width:32%;
+    height:50%;
+    border-radius:10px;
+    background:rgb(21,21,21);
+}
+#slot_3-box div{
+	text-align:center;
+	margin-left:10;
+	color:white;
+	margin-top:-2%;
+	font-size:150%;
+	font-family: 'Arvo', serif;
+}
+#slot_3-box p{
+	text-align:center;
+	margin-left:10;
+	color:white;
+	margin-top:-1px;
+	margin-bottom:1px;
+	font-size:90%;
+	font-family: 'Arvo', serif;
+}
+.backgroundinfo {
+    z-index: -999;
+    top: 20%;
+	padding:15px;
+    left: 69%;
+    border-radius:15px;
+}
+.playingsong-box {
+	position: absolute;
+    left:80%;
+    top: 75%; 
+    width:20%;
+    height:8%;
+    border-radius:10px;	
+    background:rgb(21,21,21);
+}
+
+.playingsong {
+	color:white;
+	font-size:80%;
+	font-family: 'Arvo', serif;
+	left:2%
+	padding-top:5px;
+}
+
+#downloads-box {
+	position: absolute;
+    left:40%;
+    top: 75%; 
+    width:40%;
+    height:10%;
+    border-radius:10px;	
+    background:rgba(21,21,21,0);
+}
+#downloads {
+	color:white;
+	font-size:100%;
+	font-family: 'Arvo', serif;
+	left:2%
+	padding-top:5px;
+}
+#statustext {
+	color:white;
+	font-size:130%;
+	font-family: 'Arvo', serif;
+	left:2%
+	padding-top:15px;
+}
+
+.progress {
+    margin-bottom: 0 !important;
+    margin: 3.5px;
+}
